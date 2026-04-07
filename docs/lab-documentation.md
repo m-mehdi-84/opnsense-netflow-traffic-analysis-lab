@@ -220,7 +220,7 @@ Creating a user defined test rule provided a controlled method for verifying IDS
 | Traffic visible in Reporting > Traffic | Success |
 | Top Talkers visible | Success |
 | Increased traffic visible | Success |
-| Initial IDS tests | No new alerts |
+| Initial IDS tests | No new alerts (expected - before user defined rule)|
 | User defined IDS rule | Success |
 | Suricata log confirmation | Success |
 
