@@ -165,13 +165,11 @@ Configuration used:
 
 ### Verification
 
-The following command was then sent from Windows 11:
-
-`ping 192.168.10.1 -n 10`
+Traffic was then generated from Windows 11 toward OPNsense to verify that the custom test rule produced an alert.
 
 ### Result
 
-This generated an alert successfully in OPNsense.
+This generated an alert successfully in OPNsense and confirmed that IDS events were being detected and logged in the environment.
 
 ---
 
