@@ -116,7 +116,7 @@ The lab also shows an important practical detail: traffic inside the same LAN do
 | NetFlow traffic visible on LAN | Success |
 | Top Talkers visible | Success |
 | Increased traffic visible in graph | Success |
-| Initial IDS test alerts | No new alerts |
+| Initial IDS test alerts | No new alerts (expected - before user defined rule) |
 | User defined IDS alert to OPNsense | Success |
 | Suricata log verification | Success |
 
