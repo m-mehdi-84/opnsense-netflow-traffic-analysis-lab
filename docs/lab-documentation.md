@@ -211,22 +211,6 @@ Creating a user defined ICMP rule provided a controlled method for verifying IDS
 
 ---
 
-## Validation Summary
-
-| Validation Item | Result |
-|----------------|--------|
-| OPNsense LAN reachable | Success |
-| Server reachable | Success |
-| NetFlow enabled | Success |
-| Traffic visible in Reporting > Traffic | Success |
-| Top Talkers visible | Success |
-| Increased traffic visible | Success |
-| Initial IDS tests | No new alerts |
-| User defined IDS rule | Success |
-| Suricata log confirmation | Success |
-
----
-
 ## Conclusion
 
 This lab showed that OPNsense can be used effectively in Hyper-V for traffic monitoring and IDS verification. NetFlow and Traffic Graph made it possible to observe both normal traffic and increased traffic on the LAN interface.
