@@ -175,7 +175,7 @@ Shows the logged IDS event in the Suricata log file.
 Shows a verification ping from Windows 11 to OPNsense.
 
 ### 11. Increased Traffic Test
-![Increased Traffic Test]docs/(images/11-increased-traffic-test.png)
+![Increased Traffic Test](docs/images/11-increased-traffic-test.png)
 
 Shows the larger ICMP traffic test sent from Windows 11 to the Windows Server.
 
