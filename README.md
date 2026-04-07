@@ -125,57 +125,57 @@ The lab also shows an important practical detail: traffic inside the same LAN do
 ## Screenshots
 
 ### 1. NetFlow Settings
-![NetFlow Settings](images/01-netflow-settings.png)
+![NetFlow Settings](docs/images/01-netflow-settings.png)
 
 Shows NetFlow configured on the LAN interface in OPNsense.
 
 ### 2. Traffic Graph
-![Traffic Graph](images/02-traffic-graph.png)
+![Traffic Graph](docs/images/02-traffic-graph.png)
 
 Shows live traffic activity collected from the LAN interface.
 
 ### 3. Top Talkers
-![Top Talkers](images/03-top-talkers.png)
+![Top Talkers](docs/images/03-top-talkers.png)
 
 Shows active hosts detected during traffic monitoring.
 
 ### 4. IDS Settings
-![IDS Settings](images/04-ids-settings.png)
+![IDS Settings](docs/images/04-ids-settings.png)
 
 Shows Intrusion Detection enabled in PCAP live mode on the LAN interface.
 
 ### 5. IDS Rules
-![IDS Rules](images/05-ids-rules.png)
+![IDS Rules](docs/images/05-ids-rules.png)
 
 Shows IDS rules available in the selected rule set.
 
 ### 6. IDS Policy
-![IDS Policy](images/06-ids-policy.png)
+![IDS Policy](docs/images/06-ids-policy.png)
 
 Shows the active IDS policy used during testing.
 
 ### 7. User Defined Rule
-![User Defined Rule](images/07-user-defined-rule.png)
+![User Defined Rule](docs/images/07-user-defined-rule.png)
 
 Shows the custom test rule created to verify IDS alert generation.
 
 ### 8. IDS Alert
-![IDS Alert](images/08-ids-alert.png)
+![IDS Alert](docs/images/08-ids-alert.png)
 
 Shows the alert generated after sending test traffic to OPNsense.
 
 ### 9. Suricata Log
-![Suricata Log](images/09-suricata-log.png)
+![Suricata Log](docs/images/09-suricata-log.png)
 
 Shows the logged IDS event in the Suricata log file.
 
 ### 10. Ping Test to OPNsense
-![Ping Test to OPNsense](images/10-ping-test-to-opnsense.png)
+![Ping Test to OPNsense](docs/images/10-ping-test-to-opnsense.png)
 
 Shows a verification ping from Windows 11 to OPNsense.
 
 ### 11. Increased Traffic Test
-![Increased Traffic Test](images/11-increased-traffic-test.png)
+![Increased Traffic Test]docs/(images/11-increased-traffic-test.png)
 
 Shows the larger ICMP traffic test sent from Windows 11 to the Windows Server.
 
