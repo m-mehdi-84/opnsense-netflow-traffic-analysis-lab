@@ -78,12 +78,8 @@ The lab also shows an important practical detail: traffic inside the same LAN do
 
 ### NetFlow / Traffic
 
-- Enabled NetFlow on the LAN interface
-- Opened Reporting > Traffic to observe traffic activity
-- Generated normal traffic between the client and server
-- Used the results as a simple baseline
-- Generated increased traffic with large ping packets from Windows 11 to the Windows Server
-- Observed higher activity in Traffic Graph and Top Talkers
+- Created a user defined test rule for traffic from the client to OPNsense
+- Verified alert generation after sending new traffic to OPNsense
 
 ### IDS
 
