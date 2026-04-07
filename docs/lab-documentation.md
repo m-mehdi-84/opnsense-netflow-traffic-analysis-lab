@@ -97,6 +97,7 @@ After baseline traffic had been observed, the next step was to create more traff
 From Windows 11, large ICMP traffic was sent toward the Windows Server.
 
 Example command:
+
 `ping 192.168.10.145 -t -l 65000`
 
 ### Observation
@@ -154,7 +155,7 @@ This meant that some traffic between them could stay inside the LAN path and not
 
 ### Controlled IDS Rule
 
-To verify IDS in a more reliable way, a user defined rule was created for ICMP traffic from the Windows 11 client to OPNsense.
+To verify IDS in a more reliable way, a user defined test rule was created for traffic from the Windows 11 client to OPNsense.
 
 Configuration used:
 
@@ -169,7 +170,7 @@ Traffic was then generated from Windows 11 toward OPNsense to verify that the cu
 
 ### Result
 
-This generated an alert successfully in OPNsense and confirmed that IDS events were being detected and logged in the environment.
+This generated an alert successfully in OPNsense and confirmed that IDS events were being detected in the environment.
 
 ---
 
@@ -185,7 +186,7 @@ The log showed:
 - rule reload activity completed successfully
 - the engine was running on the LAN interface
 - packet capture activity was visible
-- the ICMP test alert was logged
+- the test alert was logged
 
 Example result:
 
@@ -205,7 +206,7 @@ The lab showed that NetFlow and Traffic Graph worked well for identifying normal
 
 The IDS part required more investigation. Even though IDS was enabled and rules were loaded, the first standard tests did not generate alerts in the current configuration. This showed that IDS testing is not only about enabling rules, but also about making sure the traffic actually matches an active rule and reaches OPNsense in a way that can be inspected properly.
 
-Creating a user defined ICMP rule provided a controlled method for verifying IDS functionality. This gave a clear result and confirmed that Suricata was working correctly in the environment.
+Creating a user defined test rule provided a controlled method for verifying IDS functionality. This gave a clear result and confirmed that Suricata was working correctly in the environment.
 
 ---
 
@@ -229,7 +230,7 @@ Creating a user defined ICMP rule provided a controlled method for verifying IDS
 
 This lab showed that OPNsense can be used effectively in Hyper-V for traffic monitoring and IDS verification. NetFlow and Traffic Graph made it possible to observe both normal traffic and increased traffic on the LAN interface.
 
-The initial IDS tests did not generate clear results, but further troubleshooting showed that IDS itself was functioning. By using a controlled user defined rule and verifying the result in the Suricata log, IDS functionality was confirmed successfully.
+The initial IDS tests did not generate clear results, but further troubleshooting showed that IDS itself was functioning. By using a controlled user defined test rule and verifying the result in the Suricata log, IDS functionality was confirmed successfully.
 
 The lab provided a practical understanding of how traffic analysis and IDS verification work together, and why traffic path and rule matching are important in real testing scenarios.
 
