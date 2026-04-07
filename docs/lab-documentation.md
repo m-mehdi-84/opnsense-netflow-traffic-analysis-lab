@@ -72,7 +72,7 @@ The next step was to enable NetFlow on OPNsense and begin observing traffic on t
 
 - Opened `Reporting > NetFlow`
 - Selected the `LAN` interface
-- Enabled local capture
+- Reviewed the NetFlow capture settings on the LAN interface
 - Applied the configuration
 
 ### Traffic Observation
