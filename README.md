@@ -1,8 +1,6 @@
 # OPNsense NetFlow Traffic Analysis Lab
 
-A hands-on cybersecurity lab built using Hyper-V and OPNsense to explore traffic monitoring, baseline analysis, performance observation, and IDS verification in a virtual environment.
-
-This lab demonstrates how to use NetFlow and Traffic Graph in OPNsense to observe network activity, compare normal traffic with increased traffic, and verify IDS functionality through controlled testing.
+A hands-on cybersecurity lab built using Hyper-V and OPNsense to explore traffic monitoring, baseline analysis, performance observation, and IDS verification in a virtual environment. This lab demonstrates how to use NetFlow and Traffic Graph in OPNsense to observe network activity, compare normal traffic with increased traffic, and verify IDS functionality through controlled testing.
 
 * * *
 
