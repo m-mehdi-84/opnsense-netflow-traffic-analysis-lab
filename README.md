@@ -185,7 +185,7 @@ Shows the larger ICMP traffic test sent from Windows 11 to the Windows Server.
 
 Detailed step-by-step guide is available in:
 
-`docs/lab-documentation.md`
+[Lab Documentation](docs/lab-documentation.md)
 
 Includes:
 
